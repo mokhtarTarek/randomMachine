@@ -1,0 +1,13 @@
+//COLORS
+$markdown-darkAccent: #224b4b;
+$markdown-lightAccent: #2cda9d;
+$markdown-backgroundBase: #619e9e;
+
+//SHADOWS
+$markdown-shadow:5px 15px 25px 3px #3a5f5f;
+
+//BORDERS
+$markdown-default-border: 1px solid darken($markdown-backgroundBase, 35%);
+
+//FONTS
+@import url('https://fonts.googleapis.com/css?family=Russo+One')

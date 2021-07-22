@@ -1,0 +1,77 @@
+.markdown__previewer {
+    max-width: 80rem;
+    box-shadow:$markdown-shadow;
+    margin: 5rem auto;
+    border: 1px $markdown-darkAccent solid;
+    background-color: #c0d8d8;
+    color: #000;
+    margin-bottom: 5rem;
+
+    #preview {
+      padding: 2.5rem;
+      * {
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+      }
+      blockquote {
+        border-left: 3px solid #224b4b;
+        color: #224b4b;
+        padding-left: 5px;
+        margin-left: 25px;
+      }
+
+      > p > code {
+        padding: 0.8rem;
+      }
+
+      code {
+        font-size: 1.2srem;
+        font-weight: bold;
+      }
+
+      pre {
+        display: block;
+        overflow: auto;
+        background: rgb(27, 26, 26);
+        padding: 5px;
+        line-height: 1.2;
+      }
+
+      h1 {
+        border-bottom: 2px solid $markdown-darkAccent;
+        margin-bottom: 1.8rem;
+      }
+
+      h2 {
+        border-bottom: 1px solid $markdown-darkAccent;
+        margin-bottom: 1.6rem;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+
+      td,
+      th {
+        border: 2px solid $markdown-darkAccent;
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+
+      img {
+        display: block;
+        max-width: 90%;
+        margin: 2rem auto;
+      }
+    }
+    &--hide{
+      display:none;
+    }
+    &--show{
+      display: '';
+    }
+    &--maximize{
+      max-width: 95%;
+      height: auto;
+    }
+  }

@@ -1,11 +1,11 @@
-import './App.css';
-import QuoteBox from './components/QuoteBox';
-import {data} from './data'
+import './css/prism.css'
+
+import MarkdownPreviewer from './views/MarkdownPreviewer';
 function App() {
   return (
-    <div className="container-fluid">
-      <QuoteBox data = {data}/>
-    </div>
+    <>
+      <MarkdownPreviewer/>
+    </>
   );
 }
 

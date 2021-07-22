@@ -1,0 +1,37 @@
+.markdown__editor {
+    max-width: 80rem;
+    height: 40vh;
+    margin: 0 auto;//center item
+    box-shadow: $markdown-shadow;
+
+    textarea {
+      border: 1px $markdown-darkAccent solid;
+      width: 100%;
+      height: 100%;
+      //margin-bottom: 5px;
+      outline: none;
+      padding-left: 5px;
+      padding-top: 5px;
+      font-size: 1.6rem;
+    
+    }
+    &--theme-dark {
+      background-color: #183d3d;
+      color: #fff;
+    }
+    &--theme-light {
+      background-color: #8ccfcf;
+      color: rgb(14, 24, 14);
+    }
+    &--hide{
+      display:none;
+    }
+    &--show{
+      display: '';
+    }
+    &--maximize{
+      max-width: 95%;
+      height: auto;
+    }
+
+  }
