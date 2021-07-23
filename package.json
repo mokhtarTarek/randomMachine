@@ -21,7 +21,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "compile:sass": "node-sass src/sass/main.scss src/css/style-markdown.css -w"
+    "compile:sass": "node-sass src/sass/main.scss src/css/style.css -w"
   },
   "eslintConfig": {
     "extends": [

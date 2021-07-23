@@ -1,10 +1,11 @@
 import './css/prism.css'
+import './css/style.css'
+import DrumMachine from './views/DrumMachine';
 
-import MarkdownPreviewer from './views/MarkdownPreviewer';
 function App() {
   return (
     <>
-      <MarkdownPreviewer/>
+      <DrumMachine/>
     </>
   );
 }

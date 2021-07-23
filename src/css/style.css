@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Russo+One");
+html {
+  font-size: 62.5%;
+  /*16px * 62.5% = 10px = 1rem : compatible with any browser*/
+  /*prend en consideration les border et les padding de l'element*/ }
+
+*,
+::after,
+::before {
+  box-sizing: inherit; }
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #a0c5c5; }
+
+.markdown-body {
+  background-color: #a0c5c5;
+  padding: 5rem 1.2rem; }
+
+.drum-machine-body {
+  background-color: #81b1b1;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.drum-machine-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50rem;
+  width: 80rem;
+  background-color: orangered;
+  margin: 1.5rem; }

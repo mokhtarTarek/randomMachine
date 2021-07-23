@@ -1,1 +1,11 @@
-@import './pages/markdown-project'
+//COMMONS CSS
+@import './abstracts/variables';
+
+@import './bases/base';
+
+@import './bases/topography';
+
+//PROJECT CSS
+
+//@import './pages/markdown-project'
+@import './pages/drumMachine-project'

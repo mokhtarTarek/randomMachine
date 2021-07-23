@@ -39,3 +39,4 @@ const Viewer = ({ text,minimize }) => {
 export default Viewer;
 
 
+
