@@ -10,4 +10,13 @@ $markdown-shadow:5px 15px 25px 3px #3a5f5f;
 $markdown-default-border: 1px solid darken($markdown-backgroundBase, 35%);
 
 //FONTS
-@import url('https://fonts.googleapis.com/css?family=Russo+One')
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+// @import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+
+//GRID
+
+$grid-width:114rem;
+$gutter-vertical:8rem;
+$gutter-horizontal:6rem;

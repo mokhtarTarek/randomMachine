@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Russo+One");
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
 html {
   font-size: 62.5%;
   /*16px * 62.5% = 10px = 1rem : compatible with any browser*/
@@ -26,11 +27,74 @@ body {
   justify-content: center;
   align-items: center; }
 
-.drum-machine-display {
+.calculator-body {
+  background-color: #4B88A2;
+  padding: 5rem 1.2rem;
+  height: 100vh;
+  position: relative;
+  font-family: Share Tech Mono, monospace;
+  font-size: 3rem; }
+
+.calculator-copy {
+  text-align: center; }
+  .calculator-copy span {
+    display: block; }
+
+.calculator__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 1px;
+  width: 50%;
+  height: 60%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #252627;
+  padding: 5px; }
+
+.calculator__button {
   display: flex;
-  justify-content: center;
   align-items: center;
-  height: 50rem;
-  width: 80rem;
-  background-color: orangered;
-  margin: 1.5rem; }
+  justify-content: center;
+  height: 100%;
+  background-color: #3e4041;
+  color: #fbf7f4;
+  border-radius: 3px;
+  cursor: pointer; }
+  .calculator__button:hover {
+    background-color: #1d3349; }
+
+.calculator__display {
+  grid-column: 1/5;
+  height: 7rem;
+  font-size: 3rem; }
+  .calculator__display--formula {
+    display: block;
+    font-size: 1.5rem;
+    color: yellow; }
+  .calculator__display--result {
+    color: red; }
+
+#clear {
+  grid-column: 1/3;
+  background-color: #0aa5e7; }
+  #clear:hover {
+    background-color: #0994cf; }
+
+#zero {
+  grid-column: 1/3; }
+
+#equals {
+  grid-column: 4/5;
+  grid-row: 5/7;
+  background-color: #bb0a21;
+  color: #fbf7f4; }
+  #equals:hover {
+    background-color: #d30b25; }
+
+.operator {
+  background-color: #06bcc1; }
+  .operator:hover {
+    background-color: #05a4a8; }
